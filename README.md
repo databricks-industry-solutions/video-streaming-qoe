@@ -1,24 +1,29 @@
-<img src=https://d1r5llqwmkrl74.cloudfront.net/notebooks/fsi/fs-lakehouse-logo-transparent.png width="600px">
+<div style="text-align: left">
+  <img src="https://brysmiwasb.blob.core.windows.net/demos/images/ME_solution-accelerator.png"; width="50%">
+</div>
 
-[![DBR](https://img.shields.io/badge/DBR-10.4ML-red?logo=databricks&style=for-the-badge)](https://docs.databricks.com/release-notes/runtime/10.4ml.html)
-[![CLOUD](https://img.shields.io/badge/CLOUD-ALL-blue?logo=googlecloud&style=for-the-badge)](https://cloud.google.com/databricks)
-[![POC](https://img.shields.io/badge/POC-10_days-green?style=for-the-badge)](https://databricks.com/try-databricks)
+## Scenario: ISP Outage
 
-*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
+<div style="text-align: left">
+  <img src="https://db-gtm-industry-solutions.s3.amazonaws.com/data/cme/qoe/images/qoe_isp_outage.png">
+  <a href='https://e2-demo-west.cloud.databricks.com/sql/dashboards/304349fc-63c9-4b20-bbda-b10627d87d76-video-qoe-health'>Link to Dashboard</a>
+</div>
 
-___
-<john.doe@databricks.com>
+## Setting up Video Quality of Experience Monitoring
 
-___
-
-
-IMAGE TO REFERENCE ARCHITECTURE
-
+<div style="text-align: left">
+  <img src="https://db-gtm-industry-solutions.s3.amazonaws.com/data/cme/qoe/images/five-step-process-v4.png"; width="50%">
+</div>
 ___
 
 &copy; 2022 Databricks, Inc. All rights reserved. The source in this notebook is provided subject to the Databricks License [https://databricks.com/db-license-source].  All included or referenced third party libraries are subject to the licenses set forth below.
 
-| library                                | description             | license    | source                                              |
-|----------------------------------------|-------------------------|------------|-----------------------------------------------------|
-| PyYAML                                 | Reading Yaml files      | MIT        | https://github.com/yaml/pyyaml                      |
-
+|Library Name|Library license | Library License URL | Library Source URL |
+|---|---|---|---|
+|Faker|MIT License|https://github.com/joke2k/faker/blob/master/LICENSE.txt|https://github.com/joke2k/faker|
+|MLflow|Apache-2.0 License |https://github.com/mlflow/mlflow/blob/master/LICENSE.txt|https://github.com/mlflow/mlflow|
+|Numpy|BSD-3-Clause License|https://github.com/numpy/numpy/blob/master/LICENSE.txt|https://github.com/numpy/numpy|
+|Pandas|BSD 3-Clause License|https://github.com/pandas-dev/pandas/blob/master/LICENSE|https://github.com/pandas-dev/pandas|
+|Python|Python Software Foundation (PSF) |https://github.com/python/cpython/blob/master/LICENSE|https://github.com/python/cpython|
+|Scikit learn|BSD 3-Clause License|https://github.com/scikit-learn/scikit-learn/blob/main/COPYING/|https://github.com/scikit-learn/scikit-learn|
+|Spark|Apache-2.0 License |https://github.com/apache/spark/blob/master/LICENSE|https://github.com/apache/spark|
