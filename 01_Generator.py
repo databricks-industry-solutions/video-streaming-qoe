@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %md 
+# MAGIC You may find this series of notebooks at https://github.com/databricks-industry-solutions/video-streaming-qoe.git. For more information about this solution accelerator, visit https://www.databricks.com/solutions/accelerators/qos.
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC <div style="text-align: left">
 # MAGIC   <img src="https://brysmiwasb.blob.core.windows.net/demos/images/ME_solution-accelerator.png"; width="50%">
