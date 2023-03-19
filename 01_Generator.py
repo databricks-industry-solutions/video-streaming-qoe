@@ -468,7 +468,7 @@ getEvent()
 
 # COMMAND ----------
 
-dbutils.fs.rm('/home/{}/qoe/data/'.format(user), True) # delete existing files
+dbutils.fs.rm('/home/{}/qoe/'.format(user), True) # delete existing files, including clearing the bronze and silver tables
 dbutils.fs.mkdirs('/home/{}/qoe/data/'.format(user)) # recreate subdirectory
 
 # COMMAND ----------
